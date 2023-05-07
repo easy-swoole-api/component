@@ -1,0 +1,29 @@
+{
+    "name": "easyapi/component",
+    "type": "library",
+    "description": "easyapi component",
+    "keywords": [
+        "swoole",
+        "framework",
+        "async",
+        "easyswoole"
+    ],
+    "homepage": "https://www.easyswoole.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "XueSi",
+            "email": "1592328848@qq.com"
+        }
+    ],
+    "require-dev": {
+        "easyswoole/phpunit": "^1.0",
+        "easyswoole/swoole-ide-helper": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyApi\\Component\\": "src/",
+            "EasyApi\\Component\\Tests\\": "tests/"
+        }
+    }
+}
