@@ -1,0 +1,2 @@
+# component
+easyapi component
